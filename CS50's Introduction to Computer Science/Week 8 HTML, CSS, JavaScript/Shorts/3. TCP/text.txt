@@ -1,0 +1,8 @@
+Transmission Control Protocol (TCP)
+
+Some ports are so commonly used that they have been standardized across all computers.
+• FTP (file transfer) uses port 21.
+• SMTP (e-mail) uses port 25.
+• DNS uses port 53.
+• HTTP (web browsing) uses port 80.
+• HTTPS (secure web browsing) uses post 443.

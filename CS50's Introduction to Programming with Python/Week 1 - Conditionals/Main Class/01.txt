@@ -1,0 +1,7 @@
+There are lot of symbols
+>    Greater than 
+>=   Greater than or equal to
+<    Less than
+<=   Less than or equal to 
+==   Means equality (= used as assignment left to right)
+!=   Not equal to

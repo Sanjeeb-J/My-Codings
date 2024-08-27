@@ -1,0 +1,36 @@
+TCP/IP - Is a pair of Protocol internet use nowadays to get data from point A to B.
+
+IP - Internet Protocol.
+It is a protocol that governs how computer address each other on the internet.
+It standardizes how the address works
+#.#.#.# - IPv4 it is 32 bits format
+#.#.#.#.#.# - IPv6 it is 128 bits format
+
+Senders address - 5.6.7.8
+Destination address - 1.2.3.4
+
+IP address not enough to guarantee the delivery. Because sometimes the packet might not get to it Destination.
+This is because there is not enough room in it's memory to keep up with the traffic.
+
+TCP - Use in conjunction with IP.
+It is a pair of protocol the internet uses to get data form point A to point B.
+It's guarantee the delivery with those Sequence Number.
+Help the server do more than one thing, it help them multiplex. using those Port Number.
+
+
+Sequence Number - if there is two letter 1st(1/2) and 2nd(2/2).
+
+Port Number - The number after : of IP
+STD Port "80 - HTTP"
+         "443 - HTTPS" (S-Secure)
+
+Senders address - 5.6.7.8
+Destination address - 1.2.3.4:80
+
+DNS (Domain Name System Server).
+Answer question of form - What is the IP address of this domain name.
+
+DHCP (Dynamic Host Configuration Protocol).
+Answer questions of form - What should be my DNS server and router.
+It's just asking the local network, hay what IP address should I use for my DNS server and my router, Then give the required IP address.
+It also do, they tell your mac/pc/phone what IP address your device should use.

@@ -1,0 +1,63 @@
+HTTP is a Protocol that governs how web browsers and how web server speak.
+IP is a protocol that governs how computer address each other on the internet.
+TCP governs how computer keep track of sequence of packets from point A to point B and also multiplex among different services using those port numbers.
+
+
+HTTP (Hyper Text Transfer Protocol)
+
+https://www.example.com/
+the last / means the default page (default forlder) for the website.
+
+https://www.example.com/path
+https://www.example.com/file.html
+
+these are old type, nowadays these extension hides
+
+2 different format for getting information
+
+GET - Getting information
+POST - Sending information
+
+
+Browsers to server
+GET / HTTP/2
+HOST: www.harvard.edu
+...
+
+Server send back
+HTTP/2 200
+Content-Type: text/html
+...
+
+Code for terminal
+curl -I http://www.harvard.edu/
+(curl - connect to the URL)
+
+Below 301 also comes in certain cases (when you don's type www.)
+HTTP/2 301
+Location: http://www.harvard.edu/
+...
+
+When a file is not found
+HTTP/2 404
+Content-Type: text/html
+...
+
+All status codes
+200 OK
+301 Moved Permanently
+302 Found
+304 Not Modified
+307 Temporary Redirect
+(400 Types mean you did something wrong)
+401 Unauthorized
+403 Forbidden (You are not logged in)
+404 File Not Found
+418 I'm a Teapot
+(500 means you wrote some buggy codes)
+500 Internet Server Error
+503 Service Unavailable
+...
+
+GET / HTTP.1.1
+Host: safteyschool.org

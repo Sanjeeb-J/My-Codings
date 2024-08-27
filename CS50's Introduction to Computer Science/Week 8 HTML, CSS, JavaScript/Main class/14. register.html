@@ -1,0 +1,41 @@
+<!-- 
+regexes - Regular Expressions 
+The pattern of browser which matches the input an make sure it indeed matches
+link - developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+
+.      any single character (except line terminator)
+*      zero or more times
++      one or more times
+?      0 or 1 time
+{n}    n occurrence
+{n,m}  at least n occurrence, at most m occurrence
+\      we need literally that (I think so)
+
+
+[0123456789]  any one of the enclosed character
+[0-9]         any one of the range of character
+\d            any decimal digit
+\D            any character that not a decimal digit
+
+
+regular expression for validating email address now a days
+^[a-zA-Z0-9.!#$%&'*+\/ =?^_{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$
+
+
+validator.w3.org
+
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <form>
+            <input autocomplete="off" autofocus name="email" pattern=".+@.+\.edu" placeholder="Email" type="email">
+            <button>Register</button>
+        </form>
+    </body>
+</html>

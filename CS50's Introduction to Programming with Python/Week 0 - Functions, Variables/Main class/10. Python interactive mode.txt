@@ -1,0 +1,6 @@
+You can use python interactive mode
+By typing "python in terminal window
+
+To undo the Python interactive mode, you can use the "exit()" function
+
+For more details, check out the folder {Shorts --> 1. Visual Studio Code of CS50}
