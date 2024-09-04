@@ -1,0 +1,7 @@
+Hypertext Transfer Protocol (HTTP)
+Other application layer protocols include:
+• File Transfer Protocol (FTP)
+• Simple Mail Transfer Protocol (SMTP)
+• Data Distribution Service (DDS)
+• Remote Desktop Protocol (RDP)
+• Extensible Message and Presence Protocol (XMPP)

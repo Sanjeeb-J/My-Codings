@@ -1,0 +1,67 @@
+Loops (redux)
+• How do we iterate across all of the key-value pairs of an object
+(or indeed, all of the elements of an array)?
+
+wrong format
+
+foreach($array as $key)
+{
+// use $key in here as a stand-in for $array[$i]
+}
+
+Correct format
+
+for (var key in object)
+{
+// use object[key] in here
+}
+
+for (var key of object)
+{
+// use key in here
+}
+
+
+
+
+
+
+
+var wkArray = ['Monday,
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+                'Saturday',
+                'Sunday'];
+
+
+for (var day in wkArray)
+{
+console.log(day);
+}
+
+This command print
+0
+1
+2
+3
+4
+5
+6
+
+
+
+for (var day of wkArray)
+{
+console.log(day);
+}
+
+This command print
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday

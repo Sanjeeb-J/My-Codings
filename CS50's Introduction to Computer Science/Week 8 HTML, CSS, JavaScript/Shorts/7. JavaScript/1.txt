@@ -1,0 +1,65 @@
+Including JavaScript in your HTML
+
+. Just like CSS with <style> tags, you can directly write your JavaScript between <script> tags.
+
+. Just like CSS with <link> tags, you can write your JavaScript in separate files and link them in by using the src attribute of the <script> tag.
+
+
+
+Variables
+
+JavaScript variables are similar to PHP variables.
+• No type specifier.
+• When a local variable is first declared, preface with the var keyword.
+($x = 44;) wrong
+(var x = 44;) correct
+
+
+
+Conditionals
+• All of the old favorites from C are still available for you to use.
+if
+else if
+else
+switch
+?:
+
+
+
+Loops
+• All of the old favorites from C are still available for you to use.
+while
+do-while
+for
+
+
+
+Functions
+• All functions are introduced with the function keyword.
+• JavaScript functions, particularly those bound specifically to HTML elements, can be anonymous—you don't have to give them a name!
+
+
+
+Arrays
+. Declaring an array is pretty straightforward.
+var nums = [1, 2, 3, 4, 5];
+var mixed = [1,
+            true,
+            3.333,
+            'five'];
+
+
+
+Objects
+• JavaScript has the ability to behave as an object-oriented programming language.
+• An object is sort of analogous to a C structure
+• C structures contain a number of fields, which we might also call properties.
+• But the properties themselves can not ever stand on their own
+• Objects, meanwhile, have properties but also methods, or functions that are inherent to the object, and mean nothing outside of it.
+• Thus, like properties can methods not ever stand on their own.
+
+function(object);   -- wrong
+object.function();  -- correct
+
+The fields and methods of an object are similar in spirit to the idea of an associative array, with which we're familiar from PHP.
+var herbie = {year : 1963, model: 'Beetle'};

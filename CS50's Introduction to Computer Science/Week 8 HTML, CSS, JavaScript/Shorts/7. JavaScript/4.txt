@@ -1,0 +1,34 @@
+Events
+• An event in HTML and JavaScript is a response to user interaction with the web page.
+--> A user clicks a button, a page has finished loading, a user has hovered over a portion of the page, the user typed in an input field.
+• JavaScript has support for event handlers, which are callback functions that respond to HTML events.
+--> Many HTML elements have support for events as an attribute.
+
+<html>
+    <head>
+        <title>Event Handlers</title>
+    </head>
+    <body>
+        <button onclick="">Button 1</button>
+        <button onclick="">Button 2</button>
+    </body>
+</html>
+
+• We can write a generic event handler in JavaScript, creating an event object, that will tell us which of these two buttons was clicked.
+
+
+<html>
+    <head>
+        <title>Event Handlers</title>
+    </head>
+    <body>
+        <button onclick="alertName(event)">Button 1</button>
+        <button onclick="alertName(event)">Button 2</button>
+    </body>
+</html>
+
+function alertName(event)
+{
+var trigger = event.srcElement;
+alert('You clicked on ' + trigger.innerHTML);
+}
