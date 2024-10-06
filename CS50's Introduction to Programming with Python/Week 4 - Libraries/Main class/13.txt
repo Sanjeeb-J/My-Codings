@@ -1,0 +1,7 @@
+API - 3rd party services that you and I can write code that talk to (live in internet)
+
+request - library that allows you to make web request using python codes
+https://pypi.org/project/requests/
+
+To install request
+pip install requests

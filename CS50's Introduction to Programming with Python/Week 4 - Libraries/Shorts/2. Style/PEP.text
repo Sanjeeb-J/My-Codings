@@ -1,0 +1,31 @@
+PEP 8
+
+peps.python.org/pep-0008/
+
+It tries to standardize number of details that would manifest in your own code
+
+"Readability counts"
+"A style guide is about consistency. Consistency with this style guide is important.
+Consistency within a project is more important. Consistency within one module or
+function is the most important."
+
+Indentation
+Tabs or Spaces?
+Maximum Line Length
+Blank Lines
+Imports
+...
+
+pylint
+pip install pylint
+It is a program which analyze your complete code and identify whether your code is in right style
+pycodestyle.pycqa.org
+
+pycodestyle
+This program reformat your style of your code if it messy
+pycodestyle.pycqa.org
+
+black
+pip install black
+black. readthedocs.io
+To run it -- black [name of file].py

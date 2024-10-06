@@ -1,0 +1,3 @@
+https://itunes.apple.com/search?entity=song&limit=l&term=weezer
+
+Special library called JSON that allows you to manipulate JSON data
