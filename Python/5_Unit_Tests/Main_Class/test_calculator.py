@@ -3,8 +3,12 @@ from calculator import square
 def test_square():
     assert square(2) == 4
     assert square(3) == 9
+
+def test_negative():
     assert square(-2) == 4
-    assert square(-3) == 3
+    assert square(-3) == 9
+
+def test_zero():
     assert square(0) == 0
 
 """
@@ -14,5 +18,5 @@ https://docs.pytest.org/en/stable/
 It informing me on the screen whether or not any of those tests failed.
 
 type 
-pytest test-calculator.py
+pytest test_calculator.py
 """
