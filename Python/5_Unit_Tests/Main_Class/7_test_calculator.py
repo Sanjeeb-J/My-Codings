@@ -1,3 +1,5 @@
+import pytest
+
 from calculator import square
 
 def test_square():
@@ -11,6 +13,9 @@ def test_negative():
 def test_zero():
     assert square(0) == 0
 
+def test_str():
+    with pytest.raises(TypeError):
+        square("cat")
 """
 pip install pytest
 docs.pytest.org
@@ -18,5 +23,5 @@ https://docs.pytest.org/en/stable/
 It informing me on the screen whether or not any of those tests failed.
 
 type 
-pytest test_calculator.py
+pytest 7_test_calculator.py
 """
